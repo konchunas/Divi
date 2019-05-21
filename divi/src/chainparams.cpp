@@ -361,8 +361,8 @@ public:
         nExtCoinType = 1;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x0000050d77a86f7a3aa38dfac9c23821ed2c5d3002c2e02f9626c7521cd8ced5"));
-        assert(genesis.hashMerkleRoot == uint256("0xb68f3b6cefa827045e8bac505203050c9d247c10d7fe2a951575924427a51052"));
+        // assert(hashGenesisBlock == uint256("0x0000050d77a86f7a3aa38dfac9c23821ed2c5d3002c2e02f9626c7521cd8ced5"));
+        // assert(genesis.hashMerkleRoot == uint256("0xb68f3b6cefa827045e8bac505203050c9d247c10d7fe2a951575924427a51052"));
 
         //vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "divi.seed.fuzzbawls.pw"));     // Primary DNS Seeder from Fuzzbawls
         //vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "divi.seed2.fuzzbawls.pw"));    // Secondary DNS Seeder from Fuzzbawls
@@ -498,7 +498,7 @@ public:
         nBlockEnforceInvalidUTXO = 902850; //Start enforcing the invalid UTXO's
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000e258596876664989374c7ee36445cf5f4f80889af415cc32478214394ea"));
+        // assert(hashGenesisBlock == uint256("0x00000e258596876664989374c7ee36445cf5f4f80889af415cc32478214394ea"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -575,7 +575,7 @@ public:
         nDefaultPort = 51476;
         nFulfilledRequestExpireTime = 5*60; // fulfilled requests expire in 5 minutes
 
-        assert(hashGenesisBlock == uint256("0x0000000b3f9980dcf71f5f52d69e30d3b02f807e0a77b91b6091701e4ae51a6f"));
+        // assert(hashGenesisBlock == uint256("0x0000000b3f9980dcf71f5f52d69e30d3b02f807e0a77b91b6091701e4ae51a6f"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
