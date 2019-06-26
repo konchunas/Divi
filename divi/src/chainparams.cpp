@@ -456,7 +456,7 @@ public:
         nBlockEnforceInvalidUTXO = 99999999;
 
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 100;
+        nLastPOWBlock = 10000;
 
         nLotteryBlockStartBlock = 101;
         nLotteryBlockCycle = 100; // one week
